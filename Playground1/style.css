@@ -8,14 +8,15 @@
 html,
 body {
   height: 100%;
-  width: 100%;
+  width: 100%
 }
-main {
-  height: 100%;
-  width: 100%;
+body {
   background-color: #d7ff42;
 }
+
 nav {
+  width: 100%;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,14 +30,14 @@ nav .part2 {
   align-items: center;
   gap: 150px;
   background-color: #d487cd;
-  padding :   0 20px;
+  padding: 0 60px;
 }
 nav .part2 a {
   text-decoration: none;
   color: black;
   font-size: 20px;
-  font-weight: 500;
-  font-family:"Pacifico", cursive;
+  font-weight: 100;
+  font-family: "Pacifico", cursive;
 }
 
 nav .part2 a:hover {
@@ -45,11 +46,31 @@ nav .part2 a:hover {
 }
 
 nav h2 {
-  font-size: 22px;
+  font-size: 20px;
   color: black;
-  font-weight: 300;
+  font-weight: 100;
+  font-family: "Pacifico", cursive;
+}
+.herotext1 {
+  background-color: #b47c5c;
+  width: 100%;
+  height:65vh;
 
-  font-family :"Pacifico", cursive;
-
+}
+.mcontainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 250px;
+  padding: 0px 100px;
+  margin-top: -52px;
+}
+.herolabel1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size:100px;
+  font-weight: bold;
+  font-family: 'Impact', 'Arial Black', sans-serif;
 }
 
